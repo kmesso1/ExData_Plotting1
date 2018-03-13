@@ -35,6 +35,7 @@ with(hpc_data, {
   plot(hpc_data$date_time,
        hpc_data$sub_metering_1,
        type = "l",
+       xlab = "",
        ylab = "Energy sub metering")
   lines(hpc_data$date_time,
         hpc_data$sub_metering_2,
