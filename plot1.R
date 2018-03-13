@@ -23,7 +23,5 @@ hist(hpc_data$global_active_power,
      main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", 
      ylab="Frequency"
-     # xlim = c(0,6),
-     # ylim = c(0, 1200))
 )
 dev.off()
